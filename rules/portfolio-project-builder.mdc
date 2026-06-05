@@ -1,0 +1,49 @@
+---
+description: Build and improve data analyst portfolio case studies in content/projects/
+globs:
+  - content/projects/**
+  - content/site.json
+  - src/components/ProjectBuilderAgent.tsx
+  - src/lib/project-builder.ts
+---
+
+# Data Analyst Project Builder
+
+When working on portfolio projects in this repo, prioritize **case study quality for hiring managers**.
+
+## File location
+
+- New projects: `content/projects/<slug>.md`
+- Profile data: `content/site.json`
+
+## Frontmatter template
+
+```yaml
+---
+title: Project Title
+slug: project-slug
+description: One-line impact summary.
+date: "YYYY-MM-DD"
+featured: true
+tags: ["SQL", "Python"]
+tools: ["PostgreSQL", "Tableau"]
+metrics:
+  - label: Impact metric
+    value: "42%"
+---
+```
+
+## Section checklist
+
+- Problem (business context)
+- Data sources
+- Approach (methods + tools)
+- Key findings (numbered, quantified)
+- Outcome (what changed)
+- Next steps (optional)
+
+## In-app builder
+
+Users can also create projects at `/admin/builder` during local dev.
+
+See `AGENTS.md` for full agent instructions.
