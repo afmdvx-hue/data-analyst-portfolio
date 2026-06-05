@@ -1,0 +1,23 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/analytics/page": "/admin/analytics",
+  "/admin/builder/page": "/admin/builder",
+  "/admin/improver/page": "/admin/improver",
+  "/admin/page": "/admin",
+  "/api/analytics/collect/route": "/api/analytics/collect",
+  "/api/analytics/visits/route": "/api/analytics/visits",
+  "/api/contact/route": "/api/contact",
+  "/api/portfolio/files/route": "/api/portfolio/files",
+  "/api/portfolio/improve/route": "/api/portfolio/improve",
+  "/api/portfolio/projects/route": "/api/portfolio/projects",
+  "/api/portfolio/repos/route": "/api/portfolio/repos",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/projects/[slug]/page": "/projects/[slug]",
+  "/robots.txt/route": "/robots.txt",
+  "/security/page": "/security",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/sql/page": "/sql",
+  "/welcome/page": "/welcome"
+}
