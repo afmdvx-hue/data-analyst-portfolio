@@ -1,0 +1,111 @@
+================================================================================
+  PUSH YOUR PORTFOLIO TO GITHUB — Command Prompt (cmd) only
+  Project folder: C:\Users\abdif\data-analyst-portfolio
+  GitHub repo:   https://github.com/afmdvx-hue/data-analyst-portfolio
+================================================================================
+
+WHERE TO RUN THESE COMMANDS
+----------------------------
+NOT in this file. NOT in the browser. NOT in Cursor chat.
+
+Run them in Command Prompt (black window):
+
+  1. Press Windows key + R
+  2. Type: cmd
+  3. Press Enter
+
+You should see something like:  C:\Users\abdif>
+
+
+EASIER WAY — open cmd inside your project folder
+-------------------------------------------------
+  1. Open File Explorer
+  2. Go to: C:\Users\abdif\data-analyst-portfolio
+  3. Click the address bar at the top
+  4. Type: cmd
+  5. Press Enter
+
+You should see:  C:\Users\abdif\data-analyst-portfolio>
+
+
+BEFORE YOU PUSH — on the GitHub website (browser)
+-------------------------------------------------
+  1. Go to: https://github.com/new
+  2. Repository name: data-analyst-portfolio
+  3. Owner: afmdvx-hue
+  4. Leave EMPTY — do NOT tick README, .gitignore, or license
+  5. Click Create repository
+
+
+COMMANDS — copy ONE line, paste in cmd, press Enter, then next line
+-------------------------------------------------------------------
+
+cd /d C:\Users\abdif\data-analyst-portfolio
+
+git add .
+
+git commit -m "Initial commit: junior data analyst portfolio"
+
+git push -u origin main
+
+
+IF "git" IS NOT RECOGNIZED — use full path instead
+--------------------------------------------------
+
+cd /d C:\Users\abdif\data-analyst-portfolio
+
+"C:\Program Files\Git\cmd\git.exe" add .
+
+"C:\Program Files\Git\cmd\git.exe" commit -m "Initial commit: junior data analyst portfolio"
+
+"C:\Program Files\Git\cmd\git.exe" push -u origin main
+
+
+WHEN GIT ASKS YOU TO SIGN IN
+----------------------------
+  - A browser window may open — sign in to GitHub there, OR
+  - Username: afmdvx-hue
+  - Password: use a Personal Access Token (NOT your normal password)
+
+  Create a token:
+    GitHub → Settings → Developer settings → Personal access tokens
+    → Generate new token (classic) → tick "repo" → copy the token
+    → paste it when cmd asks for a password
+
+
+IF PUSH FAILS — "rejected" or "fetch first"
+-------------------------------------------
+  Your GitHub repo probably has a README. Easiest fix:
+    Delete the repo on GitHub → create a new EMPTY repo → run git push again.
+
+  Or run these two lines in cmd:
+
+git pull origin main --allow-unrelated-histories
+
+git push -u origin main
+
+
+AFTER PUSH WORKS — deploy on Vercel (browser only)
+--------------------------------------------------
+  1. Go to: https://vercel.com/new
+  2. Import Git Repository → choose afmdvx-hue/data-analyst-portfolio
+  3. Add environment variable:
+       Name:  NEXT_PUBLIC_SITE_URL
+       Value: https://abdifatah.uk
+  4. Click Deploy
+  5. Settings → Domains → add abdifatah.uk and www.abdifatah.uk
+
+
+LATER — update the site
+-----------------------
+Open cmd in the project folder, then:
+
+git add .
+
+git commit -m "Update portfolio"
+
+git push
+
+(Vercel redeploys automatically.)
+
+================================================================================

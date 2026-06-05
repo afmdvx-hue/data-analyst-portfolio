@@ -1,0 +1,48 @@
+{
+  "name": "data-analyst-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "add-project": "node scripts/add-project.mjs",
+    "sync-projects": "npx tsx scripts/sync-case-studies.ts",
+    "sync-repos": "npx tsx scripts/sync-repos.ts",
+    "audit-projects": "npx tsx scripts/audit-projects.ts",
+    "charts:pricing": "python scripts/generate_pricing_charts.py",
+    "charts:butetown": "python scripts/generate_butetown_charts.py",
+    "charts:supply-chain": "python scripts/generate_supply_chain_charts.py",
+    "fetch:police": "python scripts/fetch_police_crimes.py",
+    "fetch:supply-chain": "python scripts/fetch_supply_chain.py",
+    "db:build": "python scripts/build_analytics_sqlite.py",
+    "sql:report": "python scripts/run_sql_reports.py",
+    "resume": "python scripts/generate_resume_pdf.py",
+    "report:butetown": "python scripts/generate_butetown_executive_summary.py",
+    "predeploy": "npm run db:build && npm run sql:report && npm run resume && npm run report:butetown",
+    "deploy": "node scripts/deploy.mjs",
+    "finish": "powershell -ExecutionPolicy Bypass -File scripts/finish-setup.ps1",
+    "security:audit": "npm audit --audit-level=moderate"
+  },
+  "dependencies": {
+    "@marsidev/react-turnstile": "^1.5.2",
+    "@vercel/analytics": "^1.6.1",
+    "gray-matter": "^4.0.3",
+    "next": "16.2.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
