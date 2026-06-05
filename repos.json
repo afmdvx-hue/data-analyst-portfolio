@@ -1,0 +1,24 @@
+{
+  "repositories": [
+    {
+      "id": "pricing-analytics",
+      "name": "NYC Taxi Pricing Analytics",
+      "url": "",
+      "localPath": "",
+      "branch": "main",
+      "linkedProject": "pricing-analytics",
+      "codePatterns": ["*.py", "*.ipynb", "*.sql"],
+      "notes": "Add your GitHub URL or a local folder path to sync analysis code into the portfolio."
+    },
+    {
+      "id": "butetown-community",
+      "name": "Butetown Community Impact",
+      "url": "",
+      "localPath": "",
+      "branch": "main",
+      "linkedProject": "butetown-community-impact",
+      "codePatterns": ["*.py", "*.ipynb"],
+      "notes": "Police API scripts and community analysis notebooks."
+    }
+  ]
+}

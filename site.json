@@ -1,0 +1,68 @@
+{
+  "name": "Abdifatah Mohamed",
+  "title": "Junior Data Analyst",
+  "tagline": "SQL, Python, and AI-assisted analytics — from LightGBM pricing models to community impact dashboards in Butetown, Cardiff.",
+  "location": "Cardiff, UK",
+  "phone": "07869731897",
+  "email": "afm.dvx@gmail.com",
+  "resumeUrl": "/resume.pdf",
+  "portfolioUrl": "https://abdifatah.uk",
+  "social": {
+    "github": "https://github.com/afmdvx-hue",
+    "email": "mailto:afm.dvx@gmail.com"
+  },
+  "hireMe": {
+    "headline": "Hiring a junior analyst? I combine SQL, Python, and practical AI/ML for reports teams actually use.",
+    "bullets": [
+      "Open to entry-level data analyst, analytics, and AI-adjacent roles in Cardiff, remote UK, and public sector",
+      "ML in production portfolios: LightGBM fare models, automated chart pipelines, AI-assisted analysis workflows",
+      "Community data lead in Butetown — public APIs, SQL, and executive reporting for youth programmes"
+    ]
+  },
+  "about": [
+    "Computer Science graduate (Cardiff Met) with Google, IBM SQL, and Meta data certifications. I build reproducible pipelines in SQL and Python, use gradient-boosted models where they add value, and ship stakeholder-ready visuals — not one-off spreadsheets.",
+    "I work with modern AI-assisted development to move faster on cleaning, querying, and documentation while keeping analysis transparent and reproducible. Vice-Chair at Tiger Bay Youth Development — I connect analytics to real decisions in Butetown."
+  ],
+  "skills": [
+    {
+      "category": "AI & Machine Learning",
+      "items": [
+        "LightGBM",
+        "Scikit-learn",
+        "Feature engineering",
+        "Model evaluation (RMSE, R²)",
+        "AI-assisted analysis workflows"
+      ]
+    },
+    {
+      "category": "Languages & Tools",
+      "items": ["SQL", "SQLite", "Python", "Pandas", "Excel", "Git"]
+    },
+    {
+      "category": "Visualisation & BI",
+      "items": ["Matplotlib", "Tableau", "Google Analytics", "Stakeholder reporting"]
+    },
+    {
+      "category": "Data engineering",
+      "items": ["REST API extraction", "KPI dashboards", "Automated chart pipelines", "SQLite warehousing"]
+    },
+    {
+      "category": "Certifications",
+      "items": ["Google Data Analytics", "IBM SQL for Data Science", "Meta Database Engineer", "Google Data Foundations"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc Computer Science (Honours)",
+      "institution": "Cardiff Metropolitan University",
+      "period": "",
+      "details": "Bachelor of Science with Honours in Computer Science"
+    }
+  ],
+  "courses": [
+    "Google: Foundations — Data, Data, Everywhere",
+    "Google Data Analytics Professional Certificate",
+    "IBM: Database and SQL for Data Science with Python",
+    "Meta Database Engineer Professional Certificate"
+  ]
+}

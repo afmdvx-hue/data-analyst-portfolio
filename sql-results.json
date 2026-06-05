@@ -1,0 +1,241 @@
+{
+  "generated": true,
+  "database": "data/portfolio.db",
+  "reports": [
+    {
+      "project": "butetown",
+      "title": "Total street-level incidents by area (36 months)",
+      "columns": [
+        "area",
+        "total_incidents"
+      ],
+      "rows": [
+        [
+          "City Centre",
+          46901
+        ],
+        [
+          "Adamsdown",
+          33224
+        ],
+        [
+          "Grangetown",
+          33153
+        ],
+        [
+          "Riverside",
+          25702
+        ],
+        [
+          "Butetown",
+          17821
+        ],
+        [
+          "Cardiff Bay",
+          6136
+        ]
+      ]
+    },
+    {
+      "project": "butetown",
+      "title": "Butetown vs Cardiff Bay \u2014 last 6 months",
+      "columns": [
+        "month",
+        "butetown",
+        "cardiff_bay"
+      ],
+      "rows": [
+        [
+          "2026-03",
+          408,
+          155
+        ],
+        [
+          "2026-02",
+          405,
+          120
+        ],
+        [
+          "2026-01",
+          379,
+          136
+        ],
+        [
+          "2025-12",
+          426,
+          124
+        ],
+        [
+          "2025-11",
+          471,
+          139
+        ],
+        [
+          "2025-10",
+          494,
+          134
+        ]
+      ]
+    },
+    {
+      "project": "butetown",
+      "title": "Top crime categories \u2014 Butetown",
+      "columns": [
+        "category",
+        "crime_count"
+      ],
+      "rows": [
+        [
+          "violent-crime",
+          4863
+        ],
+        [
+          "anti-social-behaviour",
+          2990
+        ],
+        [
+          "shoplifting",
+          2145
+        ],
+        [
+          "public-order",
+          1876
+        ],
+        [
+          "criminal-damage-arson",
+          1172
+        ],
+        [
+          "other-theft",
+          1148
+        ]
+      ]
+    },
+    {
+      "project": "supply-chain",
+      "title": "Supplier ranking (defect & lead time)",
+      "columns": [
+        "supplier",
+        "skus",
+        "avg_defect_pct",
+        "avg_lead_days",
+        "revenue"
+      ],
+      "rows": [
+        [
+          "Supplier 5",
+          18,
+          2.67,
+          18.1,
+          110343.0
+        ],
+        [
+          "Supplier 3",
+          15,
+          2.47,
+          20.1,
+          97796.0
+        ],
+        [
+          "Supplier 2",
+          22,
+          2.36,
+          18.5,
+          125467.0
+        ],
+        [
+          "Supplier 4",
+          18,
+          2.34,
+          15.2,
+          86469.0
+        ],
+        [
+          "Supplier 1",
+          27,
+          1.8,
+          14.8,
+          157529.0
+        ]
+      ]
+    },
+    {
+      "project": "supply-chain",
+      "title": "Top 5 SKUs to inspect (quality)",
+      "columns": [
+        "SKU",
+        "product",
+        "supplier",
+        "defect_pct",
+        "lead_days"
+      ],
+      "rows": [
+        [
+          "SKU42",
+          "skincare",
+          "Supplier 5",
+          4.94,
+          26
+        ],
+        [
+          "SKU65",
+          "skincare",
+          "Supplier 5",
+          4.91,
+          16
+        ],
+        [
+          "SKU1",
+          "skincare",
+          "Supplier 3",
+          4.85,
+          23
+        ],
+        [
+          "SKU84",
+          "haircare",
+          "Supplier 5",
+          4.84,
+          24
+        ],
+        [
+          "SKU50",
+          "cosmetics",
+          "Supplier 2",
+          4.75,
+          20
+        ]
+      ]
+    },
+    {
+      "project": "supply-chain",
+      "title": "Revenue & margin by product line",
+      "columns": [
+        "product",
+        "skus",
+        "revenue",
+        "margin_pct"
+      ],
+      "rows": [
+        [
+          "skincare",
+          40,
+          241628.0,
+          90.8
+        ],
+        [
+          "haircare",
+          34,
+          174455.0,
+          90.1
+        ],
+        [
+          "cosmetics",
+          26,
+          161521.0,
+          91.7
+        ]
+      ]
+    }
+  ]
+}
